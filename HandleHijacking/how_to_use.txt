@@ -1,0 +1,2 @@
+g++ -c Aether.S -o Aether.o
+g++ -std=c++17 HandleHijacking.cpp Aether.o -o HandleHijacking.exe
